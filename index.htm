@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#afb3f7" />
+  <title>Portfolio Design</title>
+
+  <!--  fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- bootstrap -->
+   <!-- Bootstrap CSS CDN  -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <!-- Bootstrap JS CDN -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family:wght@400;500;600;800;900=Sacramento&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!--  My styles -->
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+
+  <!-- 
+    // progress bar layout page // -->
+  <div class="progress-bar"></div>
+
+  <!-- //Header -->
+  <header class="">
+    <!-- <div class="headerCont"></div> -->
+    <div class="logo">
+      <img class="myLogo" src="assets/images/Maxtech Logo.png" alt="" width="150px" />
+    </div>
+    <div>
+      <nav class="navbar navbar-expand-lg ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+          aria-expanded="false" aria-controls="#navbarToggler">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class=" navbar-nav">
+            <li class="nav-item">
+              <a class="active navlinks" href="#home"><i class="fas fa-home"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="navlinks" href="#about"><i class="fas fa-address-card"></i>About</a>
+            </li>
+            <li class="nav-item">
+              <a class="navlinks" href="#services"><i class="fas fa-tools"></i>Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="navlinks" href="#portfolio"><i class="fas fa-project-diagram"></i>Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="navlinks" href="#contact"><i class="fas fa-phone"></i>Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </header>
+
+  <!--   <main> -->
+  <section class="hero" id="home">
+    <div class="hero_info">
+      <h6>My profile:</h6>
+      <h2 class="text-element">Salami Ibrahim</h2>
+      <h4>I'm A <i class="fas fa-hand-point-down"></i></h4>
+      <span class="w_d" id="multiText"> </span>
+      <!--  <h4 class="w_d text-element2">UI/UX Designer</h4> -->
+      <p class="p_top mb-4" id="p-Top">
+        <!-- I am proficient in HTML, CSS, JavaScript, Figma and other web development technologies. -->
+      </p>
+      <div class="hero_Button">
+        <a role="button" href="assets/images/Salami.pdf" class="btn2 btn-lg " attributes-list download>Download CV<i
+            class="fas fa-file"></i></a>
+        <a role="button" href=" https://wa.me/+2348058197505" class="btn2 btn2S btn-lg ">Hire Me <i
+            class="fas fa-thumbs-up"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- //Social Links Styling -->
+  <div class="right-side d-flex">
+    <div>
+      <h5>You can follow me</h5>
+    </div>
+    <div class="shape1"></div>
+    <div class="socialLinks d-flex">
+      <a href="#"><i class="fab fa-facebook-f facebk"></i></a>
+      <a href="https://twitter.com/ibromax185"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/ibrahim-salami-72a48022a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BA5ql5HubT%2BewJpjoZJsI7w%3D%3D"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-behance"></i></a>
+      <a href="#"><i class="fab fa-pinterest"></i> </a>
+    </div>
+  </div>
+
+  <!-- //About Layout section -->
+  <section class="about" id="about">
+    <h1 class="text-secondary"><span class="">About</span> Me</h1>
+    <div class="aboutCont row">
+      <div class="col-lg-5 profilePic">
+        <!--  <div class="profilePic"> -->
+        <img class="img-fluid" src="assets/images/profile-pic (4).png" alt="" height="" />
+        <!--  </div> -->
+      </div>
+      <div class="col-lg-7">
+        <div class="aboutMe">
+          <h2>I'm Ibromax</h2>
+          <h3 class="text-secondary">Tech Savvy</h3>
+          <p class="">
+            <!--  I prioritize user experience and design aesthetics to create
+            websites and applications that are both visually appealing and
+            functional. I am always eager to learn and implement new
+            technologies to improve my skills and deliver high-quality products
+            to clients. -->
+            Hello, I'm Salami Ibrahim, a passionate web developer and UI/UX designer. With a keen eye for detail and a
+            love for clean, user-centric design, I specialize in crafting visually appealing websites and creating
+            delightful user experiences. With years of experience in the industry, I have developed a deep understanding
+            of the technical and creative aspects required to deliver exceptional results. My goal is to make your
+            digital presence stand out and leave a lasting impression on your audience.
+          </p>
+          <div class="info">
+            <div class="infobox">
+              <h4>Name:<span>Salami Ibrahim</span></h4>
+              <h4>Phone:<span>+2348058197505</span></h4>
+              <h4>
+                website:<span><a href="#">My Website</a></span>
+              </h4>
+            </div>
+            <div class="infobox">
+              <h4>Age:<span>26</span></h4>
+              <h4>Address:<span>Nigeria, Lagos</span></h4>
+              <h4>Email:<span>Ibromax185@gmail.com</span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  //Skills Layout Page -->
+  <section class="resume mt-5 container-box">
+    <h1 class="text-secondary">My<span class="text-info"> Skills...</span></h1>
+    <hr class="hrz text-secondary">
+    <div class="resumeCont row text-white">
+      <div class="col-lg-4 col-md-6">
+        <div class="resumeBox p-4">
+          <h3>Front-End Developer <i class="fas fa-code"></i></h3>
+          <span class="text-secondary"><i class="fas fa-calendar"></i>2021 - 2023</span>
+          <hr />
+
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap</li>
+            <li>Tailwindcss</li>
+            <li>Git & GitHub</li>
+            <li>React</li>
+            <li>Node.Js</li>
+          </ul>
+
+          <a href="#"><button class="resumeBtn btn2">Download Certificate <i class="fas fa-download"></i></button></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="resumeBox p-4">
+          <h3>UI/UX Designer <i class="fas fa-laptop-house"></i> </h3>
+          <span class="text-secondary"> <i class="fas fa-calendar"></i>2021 - 2023</span>
+          <hr />
+
+          <ul>
+            <li>Responsive Design</li>
+            <li>Figma</li>
+            <li>Adobe XD</li>
+            <li>Photoshop</li>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+            <li>User Research</li>
+          </ul>
+
+
+          <a href="#"><button class="resumeBtn btn2">Download Certificate <i class="fas fa-download"></i></button></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="resumeBox p-4">
+          <h3>Creative Designer <i class="fas fa-pen-fancy"></i></h3>
+          <span class="text-secondary"> <i class="fas fa-calendar"></i>2021 - 2023</span>
+          <hr />
+
+          <ul>
+            <li>Responsive Design</li>
+            <li>Cross Browser Compatibility</li>
+            <li>Topography</li>
+            <li>Design Systems</li>
+            <li></li>
+          </ul>
+
+
+          <a href="#"><button class="resumeBtn btn2">Download Certificate <i
+                class="fas fa-download"></i></button></i></a>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- //Service Layout -->
+  <section class="service container-box pt-5" id="services">
+    <h1 class="text-secondary mt-4 mb-5 text-center">My <b><em class="text-info"> Services</em></b> </h1>
+    <div class="serviceCont row">
+      <div class="col-lg-4 col-md-6">
+        <div class="serviceInfo p-3">
+          <h3 class="pt-2">UI/UX</h3>
+          <i class="fas fa-desktop"></i>
+          <p>"User-centered design lies at the heart of my UI/UX services. I'll work closely with you to understand your
+            target audience, conduct user research, create wireframes and prototypes, and deliver a visually stunning
+            and intuitive user interface that enhances user engagement and satisfaction."</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="serviceInfo p-3">
+          <h3 class="pt-2">Web Design</h3>
+          <i class="fas fa-laptop-code"></i>
+          <p>"Does your existing website need a makeover? I specialize in website redesigns, transforming outdated
+            interfaces into modern and captivating designs. I'll revamp your website's look and feel, improve its
+            usability, and optimize it for better performance and conversion rates."</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="serviceInfo p-3">
+          <h3 class="pt-2">Web Development</h3>
+          <i class="fas fa-laptop-code"></i>
+          <p>"From front-end to back-end, I offer comprehensive web development services. Whether you need a simple
+            informational website, an e-commerce platform, or a web application, I'll leverage the latest technologies
+            and industry best practices to create a seamless online experience."</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="serviceInfo p-3">
+          <h3 class="pt-2">Photo Editing</h3>
+          <i class="fas fa-photo-video"></i>
+          <p>"Make your visuals shine with professional photo editing services. I specialize in enhancing the visual
+            appeal of your images, whether it's basic retouching, advanced image manipulation, or creative enhancements.
+            From product photography to portraits and beyond, I'll bring your images to life, ensuring they leave a
+            lasting impression."</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="serviceInfo p-3">
+          <h3 class="pt-2">Branding</h3>
+          <i class="fas fa-pen-square"></i>
+          <p>"A strong brand identity sets you apart from the competition and resonates with your target audience. I
+            offer comprehensive branding services to help you establish a unique and memorable brand. From designing
+            logos and defining color palettes to creating brand guidelines, I'll ensure your brand communicates your
+            values and captivates your customers."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- // My Portfolio
+ -->
+  <section class="container-box portfolio" id="portfolio">
+    <h2 class="text-center text-white text-secondary">My <span class="text-info">Portfolio</span></h2>
+    <div class="portLinks mb-4">
+      <a href="#all" class="all active">All</a>
+      <a href="#web design" class="">Web Design</a>
+      <a href="#creative design" class="">creative design</a>
+      <a href="#branding" class="all">Branding</a>
+    </div>
+    <div class="portBox row">
+      <div class="col-lg-4 col-md-6" id="web design">
+        <div class="portInfo p-3">
+          <img class="img-fluid" src="assets/images/PixelBook Go-1.png" alt="">
+          <div class="portLayer">
+            <h5 class="text-white">project Title</h5>
+            <h4 class="py-3"> Branding
+            </h4>
+            <div class="layerLinks d-flex">
+              <i class="fas fa-link text-white"></i>
+              <i class="fas fa-binoculars text-white"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6" id="web design">
+        <div class="portInfo p-3">
+          <img class="img-fluid" src="assets/images/PixelBook Go-2.png" alt="">
+          <div class="portLayer">
+            <h5 class="text-white">project Title</h5>
+            <h4 class="py-3"> Web project
+            </h4>
+            <div class="layerLinks d-flex">
+              <i class="fas fa-link text-white"></i>
+              <i class="fas fa-binoculars text-white"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6" id="web design">
+        <div class="portInfo p-3">
+          <img class="img-fluid" src="assets/images/PixelBook Go.png" alt="">
+          <div class="portLayer">
+            <h5 class="text-white">project Title</h5>
+            <h4 class="py-3"> Web Project
+            </h4>
+            <div class="layerLinks d-flex">
+              <i class="fas fa-link text-white"></i>
+              <i class="fas fa-binoculars text-white"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-lg-4 col-md-6" id="Branding design">
+        <div class="portInfo p-3">
+          <img class="img-fluid" src="assets/images/3601260_67037 1.png" alt="" width="">
+          <div class="portLayer">
+            <h5 class="text-white">project Title</h5>
+            <h4 class="py-3"> Branding
+            </h4>
+            <div class="layerLinks d-flex">
+              <i class="fas fa-link text-white"></i>
+              <i class="fas fa-binoculars text-white"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portInfo p-3">
+          <img class="img-fluid" src="assets/images/iPhone 12 Pro (Wooden Hands) 1.png" alt="">
+          <div class="portLayer">
+            <h5 class="text-white">project Title</h5>
+            <h4 class="py-3"> Web Design
+            </h4>
+            <div class="layerLinks d-flex">
+              <i class="fas fa-link text-white"></i>
+              <i class="fas fa-binoculars text-white"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6" id="Branding">
+        <div class="portInfo p-3">
+          <img class="img-fluid" src="assets/images/Group 37110 1.png" alt="">
+          <div class="portLayer">
+            <h5 class="text-white">project Title</h5>
+            <h4 class="py-3"> Mobile App Design
+            </h4>
+            <div class="layerLinks d-flex">
+              <i class="fas fa-link text-white"></i>
+              <i class="fas fa-binoculars text-white"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6">
+        <div class="portInfo p-3">
+          <img class="img-fluid" src="assets/images/Subtract4.png" alt="">
+          <div class="portLayer">
+            <h5 class="text-white">project Title</h5>
+            <h4 class="py-3"> Branding
+            </h4>
+            <div class="layerLinks d-flex">
+              <i class="fas fa-link text-white"></i>
+              <i class="fas fa-binoculars text-white"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portInfo p-3">
+          <img class="img-fluid" src="assets/images/Frame 2N.png" alt="">
+          <div class="portLayer">
+            <h5 class="text-white">project Title</h5>
+            <h4 class="py-3"> Mobile App Design
+            </h4>
+            <div class="layerLinks d-flex">
+              <i class="fas fa-link text-white"></i>
+              <i class="fas fa-binoculars text-white"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portInfo p-3">
+          <img class="img-fluid" src="assets/images/Frame 2N.png" alt="">
+          <div class="portLayer">
+            <h5 class="text-white">project Title</h5>
+            <h4 class="py-3"> Mobile App Design
+            </h4>
+            <div class="layerLinks d-flex">
+              <i class="fas fa-link text-white"></i>
+              <i class="fas fa-binoculars text-white"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Testimonials layout page. Use of card-->
+  <section id="testimonials" class="container">
+    <h1 class="text-center pt-5 mb-3 text-info">Testimonials</h1>
+    <div id="carouselExampleDark" class="carousel carousel-info slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-image">
+                <img class="img-fluid" src="assets/images/PicsArt_09-05-10.15.27-removebg-preview.png" alt="">
+              </div>
+              <h3 class="text-light mt-2 mb-0">Thomas Shank</h3>
+
+            </div>
+            <div class="card-body">
+              <h4 class="text-center"> Web Developer</h4>
+
+
+              <p class="text-center text-light pt-2">"Working with Salami Ibrahim was an absolute pleasure. Their
+                expertise in web development and UI/UX design brought our vision to life, and the final product exceeded
+                our expectations. Salami's attention to detail and ability to understand our audience's needs resulted
+                in a user-friendly website that has significantly improved our online presence."
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="carousel-item">
+          <div class="card card2">
+            <div class="card-header">
+              <div class="card-image">
+                <img class="img-fluid" src="assets/images/PicsArt_09-05-10.15.27-removebg-preview.png" alt="">
+              </div>
+              <h3 class="text-light mt-2 mb-0">Prince Akachi</h3>
+
+            </div>
+            <div class="card-body">
+              <h4 class="text-center">Graphics Designer</h4>
+              <p class="text-center text-light pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+                est recusandae voluptas quae, eligendi cum odit molestias beatae! Officia enim cum ad excepturi minus
+                facere asperiores consectetur, libero consequatur magnam?
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="card card3">
+            <div class="card-header">
+              <div class="card-image">
+                <img class="img-fluid" src="assets/images/profile-pic (4).png" alt="">
+              </div>
+              <h3 class="text-light mt-2 mb-0">Tolulope</h3>
+
+            </div>
+            <div class="card-body">
+              <h4 class="text-center">Full Stack Developer</h4>
+              <p class="text-center text-light pt-2">"Salami's creativity and technical skills were invaluable in
+                creating a mobile application that perfectly aligned with our brand's identity. The user interface
+                design was both visually appealing and intuitive, resulting in a high level of customer satisfaction.
+                Salami's professionalism and commitment to excellence made the entire design process seamless."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  </section>
+
+
+
+
+  <!--  //Contact Layout Page
+ -->
+  <section class="container-box contact" id="contact">
+    <h1 class="text-center py-3 pb-2 text-info">Contact<span class="text-secondary"> Me</span></h1>
+    <div class="contactCont row">
+      <div class="col-md-5">
+        <div class="contactInfo">
+          <h2 class="text-secondary">Let's <b>Collaborate</b></h2>
+          <h5>Let me bring your digital dreams to life with innovative web development and captivating UI/UX design.
+            Contact me today to discuss your project and take the first step towards success. </h5>
+          <!-- <div class="contactinfo1">
+            <h4>Location</h4>
+            <i class="fas fa-location locationIcon"></i>
+            <h5>Lorem ipsum dolor sit.</h5>
+            <h5>Lorem ipsum dolor sit.</h5>
+          </div>
+          <div class="contactinfo1">
+            <h4>Email</h4>
+            <i class="fas fa-mail-bulk mailIcon"></i>
+            <h5>Lorem ipsum dolor sit.</h5>
+            <h5>Lorem ipsum dolor sit.</h5>
+          </div>
+          <div class="contactinfo1">
+            <h4>Phone</h4>
+            <i class="fas fa-phone phoneIcon"></i>
+            <h5>Lorem ipsum dolor sit.</h5>
+            <h5>Lorem ipsum dolor sit.</h5>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="col-md-7">
+        <div class="contactForm">
+          <fieldset class="text-danger">
+            <form action="" method="post">
+              <legend class="mb-5 pt-2"> Ready to take your digital presence to the next level? Don't hesitate to get in
+                touch!</legend>
+              <input type="text" class="form-control name" placeholder="Name" required>
+              <input type="email" class="form-control email" placeholder="Email" required>
+              <input type="text" class="form-control name" placeholder="Subject">
+              <textarea name="message" id="message" cols="" rows="3" class="form-control"
+                placeholder="message"></textarea>
+              <button type="submit" class="submit">Submit</button>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="logoAnimation">
+    <img class="img-fluid" src="assets/images/Subtract.png" alt="">
+    <img class="img-fluid img-2" src="assets/images/Subtract2.png" alt="">
+    <img class="img-fluid" src="assets/images/Subtract3.png" alt="">
+  </div>
+
+  <!-- // footer layout page // -->
+  <section class="footer bg-dark mt-4 " id="footer">
+    <div class="row">
+      <div class="col-lg-3 col-md-6
+      mb-4">
+        <figure>
+          <img class="myLogo" src="assets/images/Maxtech Logo.png" alt="" width="150px">
+        </figure>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <nav>
+          <h3>My Info</h3>
+          <ul class="px-0">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <nav>
+          <h3>My Account</h3>
+          <ul class="px-0">
+           <li><a href="#signIn" class="nav-link">Sign In</a></li>
+           <li><a href="#signUp" class="nav-link">Sign Up</a></li>
+          </ul>
+      </nav>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h3>You can sign up for our newsletter</h3>
+        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, velit.</p>
+        <div class="newsletterInfo d-flex">
+          <input type="email" class="newsletterInput form-control " placeholder="Your Email">
+          
+          <button type="submit" class="input-group-text ftnBtn">Send</button>
+        </div>
+
+        <div class="socialLinks mt-3">
+          <p>You can follow me on</p>
+          <i class="fab fa-facebook-f mx-1"></i>
+          <i class="fab fa-twitter mx-1"></i>
+          <i class="fab fa-linkedin mx-1"></i>
+          <i class="fab fa-behance mx-1"></i>
+          <i class="fab fa-pinterest mx-1"></i>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-secondary mt-3">
+      <p><b>© Copyright Ibromax, 2023</b></p>
+    </div>
+    <a role="button" href="#"><i class="fas fa-arrow-up"></i></a>
+  </section>
+
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
